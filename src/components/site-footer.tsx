@@ -35,7 +35,7 @@ export default function FooterSection() {
         <Link
           href="/public"
           aria-label="go home"
-          className="mx-auto block size-fit"
+          className="mx-auto block size-fit dark:invert"
         >
           <Image
             src="/branding/sevanaui.png"
