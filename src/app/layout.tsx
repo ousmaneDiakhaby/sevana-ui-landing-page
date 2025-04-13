@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "UI library landing page",
+  title: " Sevana UI library - Landing Page",
   description: "A magnificent landing page for a ui library service.",
 };
 
