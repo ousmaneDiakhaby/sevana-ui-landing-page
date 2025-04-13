@@ -98,7 +98,7 @@ export default function HeroSection({
                 {description}
               </p>
               <div className="flex flex-wrap items-start gap-5 lg:gap-7">
-                <Button asChild>
+                <Button asChild className="max-md:mx-auto">
                   <a href={buttons.primary?.url}>
                     <div className="flex items-center gap-2">
                       <ArrowUpRight className="size-4" />
@@ -108,7 +108,7 @@ export default function HeroSection({
                 </span>
                   </a>
                 </Button>
-                <Button asChild variant="link" className="underline">
+                <Button asChild variant="link" className="underline max-md:mx-auto">
                   <a href={buttons.secondary?.url}>{buttons.secondary?.text}</a>
                 </Button>
               </div>
