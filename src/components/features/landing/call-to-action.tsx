@@ -11,7 +11,7 @@ export default function CallToAction() {
           </h2>
           <p className="mt-4">
             Inscrivez-vous pour explorer notre librairie de composants UI dès
-            aujourd'hui.
+            aujourd&apos;hui.
           </p>
 
           <form action="" className="mx-auto mt-10 max-w-sm lg:mt-12">

@@ -13,7 +13,7 @@ export default function Features() {
       <div className="mx-auto max-w-5xl space-y-8 px-6 md:space-y-16">
         <div className="relative z-10 mx-auto max-w-xl space-y-6 text-center md:space-y-12">
           <h2 className="text-balance text-4xl font-medium lg:text-5xl">
-            L'essentiel pour créer des interfaces élégantes et puissantes
+            L&apos;essentiel pour créer des interfaces élégantes et puissantes
           </h2>
           <p>
             Sevana UI est une librairie de composants moderne, pensée pour la productivité des développeurs et la qualité des interfaces. Typée, accessible, performante, et taillée pour les projets ambitieux.

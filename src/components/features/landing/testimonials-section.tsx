@@ -1,5 +1,6 @@
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import Image from "next/image";
 
 export default function Testimonials() {
   return (
@@ -10,8 +11,8 @@ export default function Testimonials() {
             Conçue par des experts, adorée par des milliers de développeurs
           </h2>
           <p>
-            Sevana UI est plus qu'une simple bibliothèque de composants. Elle
-            propose un écosystème complet d'API et d'outils qui permettent aux
+            Sevana UI est plus qu&apos;une simple bibliothèque de composants. Elle
+            propose un écosystème complet d&apos;API et d&apos;outils qui permettent aux
             développeurs et aux entreprises de créer des interfaces utilisateur
             exceptionnelles.
           </p>
@@ -20,12 +21,12 @@ export default function Testimonials() {
         <div className="grid gap-4 sm:grid-cols-2 md:grid-cols-4 lg:grid-rows-2">
           <Card className="grid grid-rows-[auto_1fr] gap-8 sm:col-span-2 sm:p-6 lg:row-span-2">
             <CardHeader>
-              <img
+              <Image
                 className="h-6 w-fit dark:invert"
                 src="https://html.tailus.io/blocks/customers/nike.svg"
                 alt="Nike Logo"
                 height="24"
-                width="auto"
+                width="30"
               />
             </CardHeader>
             <CardContent>
@@ -68,8 +69,8 @@ export default function Testimonials() {
               <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
                 <p className="text-xl font-medium">
                   Sevana UI est vraiment extraordinaire et très pratique, pas
-                  besoin de se prendre la tête. Une véritable mine d'or pour la
-                  création d'interfaces.
+                  besoin de se prendre la tête. Une véritable mine d&apos;or pour la
+                  création d&apos;interfaces.
                 </p>
 
                 <div className="grid grid-cols-[auto_1fr] items-center gap-3">
@@ -98,7 +99,7 @@ export default function Testimonials() {
               <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
                 <p>
                   Excellent travail sur les composants. Les meilleurs composants
-                  UI que j'ai pu utiliser jusqu'à présent dans mes projets
+                  UI que j&apos;ai pu utiliser jusqu&apos;à présent dans mes projets
                   front-end !
                 </p>
 
@@ -130,7 +131,7 @@ export default function Testimonials() {
               <blockquote className="grid h-full grid-rows-[1fr_auto] gap-6">
                 <p>
                   La qualité et la cohérence des composants UI sont
-                  impressionnantes. L'intégration avec Tailwind CSS est parfaite
+                  impressionnantes. L&apos;intégration avec Tailwind CSS est parfaite
                   pour nos projets.
                 </p>
 
